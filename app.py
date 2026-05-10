@@ -122,6 +122,29 @@ def format_recommendations(items):
     return recommendations
 
 
+# CHECK IF USER IS ENDING CONVERSATION
+def is_conversation_end(text):
+
+    closing_phrases = [
+        "perfect",
+        "thanks",
+        "thank you",
+        "that works",
+        "looks good",
+        "great",
+        "done",
+        "that's what we need",
+        "this works"
+    ]
+
+    text = text.lower()
+
+    return any(
+        phrase in text
+        for phrase in closing_phrases
+    )
+
+
 # CHAT ENDPOINT
 @app.post("/chat")
 def chat(req: ChatRequest):
@@ -140,6 +163,15 @@ def chat(req: ChatRequest):
     )
 
     latest_message = req.messages[-1].content
+
+    # END CONVERSATION DETECTION
+    if is_conversation_end(latest_message):
+
+        return {
+            "reply": "Glad I could help with your SHL assessment selection.",
+            "recommendations": [],
+            "end_of_conversation": True
+        }
 
     # OFF TOPIC REFUSAL
     if is_off_topic(latest_message):
