@@ -1,5 +1,18 @@
 [
   {
+    "name": "Core Java (Entry Level) (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level-new/",
+    "description": "Multi-choice test that measures the knowledge of basic Java constructs, OOP concepts, file handling, exception handling, threads, generic class and inner class.",
+    "test_type": "K",
+    "skills": [
+      "java",
+      "backend",
+      "oop",
+      "threads",
+      "exception handling"
+    ]
+  },
+  {
     "name": "Java 8 (New)",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/java-8-new/",
     "description": "Measures Java programming knowledge and coding skills.",
@@ -7,35 +20,40 @@
     "skills": [
       "java",
       "backend",
-      "programming",
-      "coding",
-      "software development"
+      "programming"
     ]
   },
   {
     "name": "OPQ32r",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/opq32r/",
-    "description": "Measures workplace personality, communication style, and behavioral preferences.",
+    "description": "Measures workplace personality and behavioral preferences.",
     "test_type": "P",
     "skills": [
       "personality",
       "behavior",
-      "communication",
-      "teamwork",
-      "leadership"
+      "communication"
     ]
   },
   {
     "name": "Verify Interactive G+",
     "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-interactive-g-plus/",
-    "description": "Measures cognitive ability, analytical thinking, and reasoning skills.",
+    "description": "Measures cognitive ability and reasoning skills.",
     "test_type": "A",
     "skills": [
       "aptitude",
       "reasoning",
+      "problem solving"
+    ]
+  },
+  {
+    "name": "Automata (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/automata-new/",
+    "description": "AI-powered coding simulation assessment for real-world programming ability.",
+    "test_type": "S",
+    "skills": [
+      "coding",
       "problem solving",
-      "analytical thinking",
-      "cognitive ability"
+      "software development"
     ]
   }
 ]
