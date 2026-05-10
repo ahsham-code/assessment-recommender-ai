@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Java 8 (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/java-8-new/",
+    "description": "Measures Java programming knowledge and coding skills.",
+    "test_type": "K",
+    "skills": [
+      "java",
+      "backend",
+      "programming",
+      "coding",
+      "software development"
+    ]
+  },
+  {
+    "name": "OPQ32r",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/opq32r/",
+    "description": "Measures workplace personality, communication style, and behavioral preferences.",
+    "test_type": "P",
+    "skills": [
+      "personality",
+      "behavior",
+      "communication",
+      "teamwork",
+      "leadership"
+    ]
+  },
+  {
+    "name": "Verify Interactive G+",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/verify-interactive-g-plus/",
+    "description": "Measures cognitive ability, analytical thinking, and reasoning skills.",
+    "test_type": "A",
+    "skills": [
+      "aptitude",
+      "reasoning",
+      "problem solving",
+      "analytical thinking",
+      "cognitive ability"
+    ]
+  }
+]
